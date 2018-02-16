@@ -45,6 +45,9 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
+                        <a href="#program">Program</a>
+                    </li>
+                    <li>
                         <a href="#cfp">Call for Papers</a>
                     </li>
                     <li>
@@ -79,25 +82,126 @@
             <p><a href="#cfp" class="btn btn-primary btn-large">Call for Papers</a>
             </p>
         </header>
-
-        <hr>
         
-        
-        <a name="dates"></a>
+        <a name="program"></a>
         <div class="row">
             <div class="col-lg-12">
-                <h3>Important Dates</h3>
+                <h3>Program (2018-03-19) <span class="badge badge-secondary">Now Online</span></h3>
                 <p>
-                <ul>
-                <li><b><font color="#ff0000">Extended workshop paper submission deadline: December 3, 2017</font></b></li>
-                <li><strike><b>November 11, 2017:</b> Paper and demo submission deadline</strike></li>
-                <li><b>December 23, 2017:</b> Notification of acceptance</li>
-                <li><b>January 12, 2018:</b> Submission of camera-ready deadline</li>
-                <!--<li><b>March 19, 2018:</b> Workshop</li>-->
-                </ul>
+                <table class="table">
+                
+                <tbody>
+                    <tr>
+                    <th scope="row">08:45-09:00</th>
+                    <td>Introduction</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">09:00-10:00</th>
+                    <td><a data-toggle="collapse" href="#k1">Keynote (Florian Alt, LMU München)</a>
+                        <div class="collapse" id="k1">
+                        <div class="card card-body">
+                            This keynote will highlight challenges and opportunities in usable security as novel technologies, including but not limited to personal devices and sensors, are becoming ubiquitous. Such technologies, on one hand, strongly influence the way in which we access and interact with information, hence creating a need to fundamentally rethink how we design for usability. On the other hand, new sensing technologies, such as eye trackers and thermal cameras, may create considerable security threats. Through illustrative examples, the keynote will show how security and usability issues can both be identified and mitigated. In particular, opportunities of moving away from explicit authentication mechanisms as well as providing benefits of authentication mechanisms beyond mere security will be discussed.
+                        </div>
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th scope="row">10:00-10:30</th>
+                    <td>Coffee break</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">10:30-11:30</th>
+                    <td>Session 1 (Secure IoT)<br/>
+                        <a data-toggle="collapse" href="#s11">Lee, Chow, Haghighat, Patterson, Kobsa: IoT Service Store: A Web-based System for Privacy-aware IoT Service Discovery and Interaction</a><br/>
+                        <div class="collapse" id="s11">
+                        <div class="card card-body">
+                            Internet of Things (IoT) services collect and analyze sensor data to provide users with intelligent functionality tailored to their needs. However, users are often unaware of privacy risks relating to sensor data collection and the inferences possible from this data. Even if aware of the data collection and possible inferences, users lack ways to manage the collection, processing, and transmission of the data about themselves. To tackle this problem, we designed and implemented a novel web-based system called IoT Service Store (ISS) that allows users to easily browse available IoT services at their current location, understand the privacy implications of these IoT services, and control the collection and usage of sensor data. First, each IoT service registered to ISS broadcasts its own information to nearby users. To better inform users about the potential privacy risks in using IoT services, ISS displays detailed information of what personal information might be inferred from the sensor data being collected. ISS also allows each user to give a rating or check other users' ratings about the utility-privacy tradeoff for each IoT service. ISS is designed to communicate with IoT services to modify their data collection and usage practices, according to a user's privacy preferences. Using the preferred privacy settings in the proposed system, users will be more confident in their decisions whether to subscribe to IoT services and less concerned with privacy risks in using the services.
+                        </div>
+                        </div>
+                        <a data-toggle="collapse" href="#s12">Chollet, Pion, Barbot, Michel: Secure IoT for a Pervasive Platform</a><br/>
+                        <div class="collapse" id="s12">
+                        <div class="card card-body">
+                            Nowadays, the proliferation of smart, communication-enable devices is opening up many new opportunities of pervasive applications. A major requirement of pervasive applications is to be secured. The complexity to secure pervasive systems is to address a end-to-end security level: from the device to the services according to the entire life cycle of devices, applications and platform. In this article, we propose a solution combining both hardware and software elements to secure communications between devices and pervasive platform based on certificates issued from a Public Key Infrastructure. Our solution is implemented and validated with a real device extended by a secure element and our own Public Key Infrastructure.
+                        </div>
+                        </div>
+                        <a data-toggle="collapse" href="#s13">Nguyen: Secure Context-based Pairing for Unprecedented Devices</a>
+                        <div class="collapse" id="s13">
+                        <div class="card card-body">
+                            We introduce context-based pairing protocols that integrate into common distributed device encryption schemes for device management and access control. In particular, we suggest three pairing protocols that integrate implicit proximity-based device pairing to increase convenience and security. From these protocols, we implemented a secure device pairing approach conditioned on natural, unconstrained spoken interaction in a smart environment. In particular, our approach exploits speech recognition to identify devices to pair from free-form spoken interaction and restricts the pairing to the right device in proximity by generating secure keys from audio fingerprints of the same spoken interaction.
+                        </div>
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th scope="row">11:30-12:00</th>
+                    <td><a data-toggle="collapse" href="#k2">Invited Talk (Hien Truong, NEC Laboratories Europe)</a>
+                        <div class="collapse" id="k2">
+                        <div class="card card-body">
+                            This talk will present recent results from our research on device-proximity (co-presence) verification based on context sensing technologies to enhance security of mobile authentication systems while retaining their usability. Prior work demonstrated the effectiveness of context-centric sensor based approaches to defend such systems against relay attacks. Through a systematic assessment of those context-based verification systems by considering an adversary model that includes active attackers, we showed that it is possible to manipulate context from sensor readings. This consequently defeats the authentication systems. In the direction of mitigating such active context attackers, this talk will introduce a solution based on acoustic room impulse response.
+                            </div>
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th scope="row">12:00-13:15</th>
+                    <td>Lunch Break</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">13:15-14:15</th>
+                    <td><a data-toggle="collapse" href="#k3">Keynote (Jan Lühr, AnderScore)</a>
+                        <div class="collapse" id="k3">
+                        <div class="card card-body">
+                            This keynote presentation will highlight the challenges of usable security in industrial context. It will discuss common problems faced and efficient solutions, exemplified from the perspective of anderScore. The speaker has more than 10 years of working experience in the field and has been involved in various projects in a vast number of business areas, such as finance, insurance, health, telecommunication and more. The talk will detail how anderScore is able to achieve the goals of usable security in real-life projects.
+                        </div>
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th scope="row">14:15-14:30</th>
+                    <td>Session 2 (Authentication)<br/>
+                    <a data-toggle="collapse" href="#s21">Wajid, Kanhere: Wi-Access: Second Factor User Authentication leveraging WiFi Signals</a><br/>
+                        <div class="collapse" id="s21">
+                        <div class="card card-body">
+                            Despite the fact that second factor authentication (2FA) provides improved security for the online accounts, the user adoption rate is rather limited because most 2FA implementations require a significant amount of interaction from the user. In this paper, we present a novel 2FA system, called Wi-Access that requires absolutely no explicit participation from the user. A user simply has to type his password, while Wi-Access detects the unique perturbations in WiFi signals as a result of fingers and hands motion and use these as a 2FA. Wi-Access detect these perturbations by measuring the fine-grained Channel State Information (CSI) of the ambient WiFi signals at the device from which user is attempting to log-in. The logic being that, while typing the password user's hands and fingers move in unique direction and formation, causing unique perturbations in CSI time-series related to each user. Wi-Access deploy a mechanism for precise estimation of start and end point of password in a recorded CSI stream. Subsequently, Wi-Access uses a One-Class Classifier based upon autoencoders and sets a local threshold for each user in order to make the authentication decision. We implement Wi-Access using commodity off-the-shelf 802.11n devices and evaluate its performance in a room by recruiting 10 volunteers. Our extensive 210 tests reveal that Wi-Access can on average achieve 91% authentication accuracy with 8% false positives. Moreover, Wi-Access is very robust in preventing attacks with a 92% attack detection accuracy.
+                        </div>
+                        </div>
+                    <a data-toggle="collapse" href="#s22">Nguyen: User Authentication based on Personal Image Experiences</a>
+                        <div class="collapse" id="s22">
+                        <div class="card card-body">
+                            Building upon the concept of collective computing, which combines cloud, crowd and shroud technologies, we propose a further application domain for the fourth generation of computing: Usable Security. Combining the three constituent technologies enables novel, stronger and personalized authentication mechanisms. In particular, we combine implicit memory of people (the crowd), obtained from wearable camera devices (the shroud) and supported by edge and cloud facility (the cloud) in order to generate image-based authentication challenges which are transient and personalized .
+                        </div>
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th scope="row">14:30-15:00</th>
+                    <td><a data-toggle="collapse" href="#k4">Invited Talk (Dawud Gordon, twosen.se)</a>
+                        <div class="collapse" id="k4">
+                        <div class="card card-body">
+                            TBD
+                        </div>
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                    <th scope="row">15:00-15:30</th>
+                    <td>Coffee break</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">15:30-16:00</th>
+                    <td>Prototypes and Demos</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">16:00-16:30</th>
+                    <td>Tutorial (Dominik Schürmann, TU Braunschweig)</td>
+                    </tr>
+                </tbody>
+                </table>
                 </p>
             </div>
         </div>
+        
+        
 
         <a name="cfp"></a>
         <div class="row">
@@ -143,6 +247,23 @@
                     <li>Authentication and access control for usably secure systems</li>
                     <li>Trust in usable security</li>
                     <li>Orchestration and collaboration between devices in usable security</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        
+        
+        <a name="dates"></a>
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>Important Dates</h3>
+                <p>
+                <ul>
+                <li><b>Extended workshop paper submission deadline: December 3, 2017</b></li>
+                <li><strike><b>November 11, 2017:</b> Paper and demo submission deadline</strike></li>
+                <li><b>December 23, 2017:</b> Notification of acceptance</li>
+                <li><b>January 12, 2018:</b> Submission of camera-ready deadline</li>
+                <!--<li><b>March 19, 2018:</b> Workshop</li>-->
                 </ul>
                 </p>
             </div>
